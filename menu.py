@@ -62,6 +62,7 @@ while i==0:
 
     if opcion == 2:
         if len(compra)==0:
+            print("")
             print("La lista esta vacia")
             print(" ")
         else:
@@ -71,7 +72,7 @@ while i==0:
             print(f"El costo total es {costo_total}$")
             print(" ")
     
-    if opcion==3:
+    if opcion==3 and len(compra)!=0:
         print("")
         print("HA SELECCIONADO ELIMINAR PRODUCTOS")
         print("Por favor escriba el producto que desea eliminar(asegurese de escribirlo igual)")
@@ -103,6 +104,11 @@ while i==0:
         else:
             print("No se elimino ningun producto, asegurese de escribir las mayusculas")
             print("")
+    elif opcion==3 and len(compra)==0:
+        print(" ")
+        print("La lista esta vacia")
+        print("")
+        
         
     if opcion==4:
         print("")
@@ -114,6 +120,8 @@ while i==0:
             print("Su pago ha sido aprobado...")
             print(compra)
             print(f"precio total: {costo_total}$")
+            print("hasta la proxima...")
+            i=1
         else:
             print("")
             print("no se ha efectuado la compra")
