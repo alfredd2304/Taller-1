@@ -29,30 +29,35 @@ while i==0:
                 costo_total = costo_total+20000
                 print(" ")
                 print("Anotado, algo mas?")
+                print(compra)
                 print(" ")
             if opcion2 ==2:
                 compra.append("Papas Fritas x1 ==>5000$")
                 costo_total = costo_total+5000
                 print(" ")
                 print("Anotado, algo mas?")
+                print(compra)
                 print(" ")
             if opcion2==3:
                 compra.append("CocaCola Zero x1 ==>4000$")
                 costo_total = costo_total+4000
                 print(" ")
                 print("Anotado, algo mas?")
+                print(compra)
                 print(" ")
             if opcion2==4:
                 compra.append("Nuggets combo x1 ==>22000$")
                 costo_total = costo_total+22000
                 print(" ")
                 print("Anotado, algo mas?")
+                print(compra)
                 print(" ")
             if opcion2==5:
                 compra.append("Helado grande x1 ==>7000$")
                 costo_total = costo_total+7000
                 print(" ")
                 print("Anotado, algo mas?")
+                print(compra)
                 print(" ")
             if opcion2==6:
                 print(" ")
