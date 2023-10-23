@@ -68,6 +68,40 @@ while i==0:
             print(compra)
             print(f"El costo total es {costo_total}$")
             print(" ")
+    
+    if opcion==3:
+        print("")
+        print("HA SELECCIONADO ELIMINAR PRODUCTOS")
+        print("Por favor escriba el producto que desea eliminar(asegurese de escribirlo igual)")
+        print(compra)
+        opcion3 = str(input())
+        if opcion3==("Hamburguesa"):
+                costo_total= costo_total-20000
+                compra.remove("Hamburguesa x1 ==>20000$")
+                print("Se ha removido la hamburguesa satisfactoriamente")
+        elif opcion3==("Papas fritas"):
+            costo_total= costo_total-5000
+            compra.remove("Papas Fritas x1 ==>5000$")
+            print("Se ha removido las Papas Fritas satisfactoriamente")
+
+        elif opcion3==("CocaCola Zero"):
+            costo_total= costo_total-5000
+            compra.remove("CocaCola Zero x1 ==>4000$")
+            print("Se ha removido la CocaCola Zero satisfactoriamente")
+
+        elif opcion3==("Nuggets combo"):
+            costo_total= costo_total-5000
+            compra.remove("Nuggets combo x1 ==>22000$")
+            print("Se han removido los Nuggets combo satisfactoriamente")
+        
+        elif opcion3==("Helado grande"):
+            costo_total= costo_total-5000
+            compra.remove("Helado grande x1 ==>7000$")
+            print("Se ha removido el Helado grande satisfactoriamente")
+        else:
+            print("No se elimino ningun producto, asegurese de escribir las mayusculas")
+            print("")
+        
 
     if opcion == 5:
         print("Hasta luego")
