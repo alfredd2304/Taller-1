@@ -1,3 +1,5 @@
+print("  ")
+print("  ")
 print("Bienvenido al Restaurante, que deseas hacer?")
 print("(Digite numero)")
 
@@ -85,23 +87,36 @@ while i==0:
             print("Se ha removido las Papas Fritas satisfactoriamente")
 
         elif opcion3==("CocaCola Zero"):
-            costo_total= costo_total-5000
+            costo_total= costo_total-4000
             compra.remove("CocaCola Zero x1 ==>4000$")
             print("Se ha removido la CocaCola Zero satisfactoriamente")
 
         elif opcion3==("Nuggets combo"):
-            costo_total= costo_total-5000
+            costo_total= costo_total-22000
             compra.remove("Nuggets combo x1 ==>22000$")
             print("Se han removido los Nuggets combo satisfactoriamente")
         
         elif opcion3==("Helado grande"):
-            costo_total= costo_total-5000
+            costo_total= costo_total-7000
             compra.remove("Helado grande x1 ==>7000$")
             print("Se ha removido el Helado grande satisfactoriamente")
         else:
             print("No se elimino ningun producto, asegurese de escribir las mayusculas")
             print("")
         
+    if opcion==4:
+        print("")
+        print(f"Costo total {costo_total}$")
+        print("Desea confirmar el pago? s/n")
+        respuesta = str(input())
+        if respuesta=="s" and compra!=0:
+            print("")
+            print("Su pago ha sido aprobado...")
+            print(compra)
+            print(f"precio total: {costo_total}$")
+        else:
+            print("")
+            print("no se ha efectuado la compra")
 
     if opcion == 5:
         print("Hasta luego")
