@@ -21,7 +21,7 @@ while i==0:
             print("4. Nuggets combo ==> 22000$")
             print("5. Helado grande ==>  7000$")
             print("6. Volver al menu anterior")
-            opcion2 = int(input())
+            opcion2 = int(input("Digite un numero:"))
             if opcion2 == 1:
                 compra.append("Hamburguesa x1 ==>20000$")
                 costo_total = costo_total+20000
@@ -55,8 +55,19 @@ while i==0:
             if opcion2==6:
                 print(" ")
                 break
-            else:
+            elif opcion2<1 or opcion2>6:
                 print("Digite un numero del 1 al 6")
+
+    if opcion == 2:
+        if len(compra)==0:
+            print("La lista esta vacia")
+            print(" ")
+        else:
+            print(" ")
+            print("RESUMEN DEL PEDIDO")
+            print(compra)
+            print(f"El costo total es {costo_total}$")
+            print(" ")
 
     if opcion == 5:
         print("Hasta luego")
