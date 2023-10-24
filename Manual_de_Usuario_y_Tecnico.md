@@ -52,5 +52,15 @@ Se le mostrara el costo total de su pedido y una pregunta de confirmacion de pag
 digite "s" para aprobar el pago o "n" para cancelarlo.
 
 
+MANUAL TECNICO
+
+El software es una aplicación sencilla que permite a los usuarios administar una orden en un restaurante,
+ingresar al menu para añadir la orden, eliminar productos de la lista y aprobar el pago de los productos seleccionados.
+
+INSTALACION
+usted debera descargar el archivo .py y ejecutarlo en su IDE de preferencia o en la terminal de Windows.
+Para ejecutarlo en la terminal de windows usted debera abir el CMD y localizar la ruta del archivo depues digitar "python [NOMBRE DEL ARCHIVO]"
+Para obtener asistencia técnica, contacta a nuestro equipo de soporte.
+
 
 
